@@ -1,0 +1,13 @@
+wwwroot\assets\css\bootstrap.min.css
+wwwroot\assets\css\bootstrap\_media.css
+wwwroot\assets\css\bootstrap\mixins\_border-radius.css
+wwwroot\assets\css\bootstrap\mixins\_reset-text.css
+wwwroot\assets\css\bootstrap\mixins\_screen-reader.css
+wwwroot\assets\css\bootstrap\mixins\_text-hide.css
+wwwroot\assets\css\bootstrap\mixins\_visibility.css
+wwwroot\assets\css\bootstrap\utilities\_stretched-link.css
+wwwroot\assets\css\style.css
+wwwroot\assets\images\bg.jpg
+wwwroot\assets\js\bootstrap.min.js
+wwwroot\assets\js\jquery.min.js
+wwwroot\assets\js\main.js
