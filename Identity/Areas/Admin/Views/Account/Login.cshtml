@@ -1,0 +1,66 @@
+﻿
+@using Identity.Areas.Admin.ViewModels.Account
+@model AccountLoginVM
+@{
+	Layout = null;
+	string returnUrl = Context.Request.Query["returnUrl"];
+} 
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Login </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="~/assets/css/style.css">
+
+</head>
+<body class="img js-fullheight" style="background-image: url(@Url.Content("~/assets/images/bg.jpg"));">
+
+	<section class="ftco-section">
+		<div class="container">
+
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+
+						<div asp-validation-summary="All"> </div>
+
+						<form method="post" asp-controller="Account" asp-action="Login" class="signin-form">
+							<div class="form-group">
+								<input asp-for="EmailAddress" class="form-control" placeholder="Email">
+								<span class="text-danger" asp-validation-for="EmailAddress"> </span>
+							</div>
+							<input type="hidden" asp-for="ReturnUrl" value="@returnUrl" />
+
+							<div class="form-group">
+								<input asp-for="Password" class="form-control password-field" placeholder="Password">
+								<span toggle=".password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+								<span class="text-danger" asp-validation-for="Password"> </span>
+							</div>
+
+							<div class="form-group">
+								<button type="submit" class="form-control btn btn-primary submit px-3">Login</button>
+							</div>
+						</form>
+						<h3 class="mb-4 text-center">Create an account?</h3>
+						<p class="w-100 text-center">&mdash; <a asp-controller="Account" asp-action="Register">Register</a> &mdash;</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="~/assets/js/jquery.min.js"></script>
+	<script src="~/assets/js/popper.js"></script>
+	<script src="~/assets/js/bootstrap.min.js"></script>
+	<script src="~/assets/js/main.js"></script>
+
+</body>
+</html>
+

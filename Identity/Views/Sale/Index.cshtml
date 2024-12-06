@@ -1,0 +1,7 @@
+﻿<h1 class="text-primary"> Sale</h1>
+
+@if (User.Identity.IsAuthenticated)
+{
+	<h2>Welcome @User.Identity.Name</h2>
+	<a asp-controller="Account" asp-action="Logout">Logout</a>
+}

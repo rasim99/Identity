@@ -1,0 +1,49 @@
+﻿@using Identity.Areas.Admin.Models.User
+@model UserIndexVM
+@if (Model.Users.Count != 0)
+{
+	<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+		<thead>
+			<tr>
+				<th class="text-success">Email</th>
+				<th class="text-info">Country</th>
+				<th class="text-dark">City</th>
+				<th class="text-dark">Phone Number</th>
+				<th class="text-danger">Roles</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+
+		<tbody>
+
+			@foreach (var user in Model.Users)
+			{
+				<tr>
+					@* <td class="text-gray-500 w-25"><img style="width:50%; transform:translateX(80px); height:100px; border-radius:5px; object-fit:cover" src="/StaticFiles/assets/img/@product.PhotoName" title="Photo" /></td> *@
+					<td class="text-gray-500">@user.Email</td>
+					<td class="text-gray-500">@user.Country</td>
+					<td class="text-gray-500">$@user.City</td>
+					<td class="text-gray-500">@user.PhoneNumber</td>
+					<td class="text-gray-500"> 
+						@foreach (var role in user.Roles)
+						{
+							<p class="text-success"> @role </p>
+						}
+					</td>
+					<td class="text-gray-500 text-center " style="transform:translateY(20px);">
+						<a class="btn btn-primary" asp-controller="User" asp-action="Update" asp-route-id="@user.Id">Update</a>
+						<form class="d-inline" method="post" asp-controller="User" asp-action="Delete" asp-route-id="@user.Id">
+							<button type="submit" class="btn btn-outline-danger">Delete</button>
+						</form>
+
+					</td>
+				</tr>
+			}
+
+		</tbody>
+	</table>
+}
+else
+{
+	<h1 class="text-center text-danger"> NOT FOUND ANY User</h1>
+} 
