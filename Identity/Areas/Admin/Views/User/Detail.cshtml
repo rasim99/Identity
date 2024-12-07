@@ -1,0 +1,23 @@
+﻿@using Identity.Areas.Admin.Models.User
+@model UserDetailVM
+
+<div class="text-center">
+	<h1>User Details</h1>
+
+	<p>User Email : <span class="text-primary">@Model.Email</span></p>
+	<p>User Country : <span class="text-danger">@Model.Country</span></p>
+	<p>User City : <span class="text-success">@Model.City</span></p>
+	<p>User Phone Number : <span class="text-success">@Model.PhoneNumber</span></p>
+
+
+	<p>
+		User  Roles :
+
+		@foreach (var role in Model.Roles)
+		{
+			<span class="text-warning">@role </span>
+		}
+	</p>
+  
+</div>
+

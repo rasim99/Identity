@@ -112,6 +112,24 @@ namespace Identity.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+
+        [HttpGet]
+        public IActionResult Detail(string id) 
+        {
+            var user =_userManager.FindByIdAsync(id).Result;
+            if (user == null) return NotFound("have not any user");
+            var model = new UserDetailVM
+            {
+              Email=user.Email,
+             City = user.City,
+             Country = user.Country,
+             PhoneNumber=user.PhoneNumber,
+             
+            };
+            var roleResult=_userManager.GetRolesAsync(user).Result;
+            model.Roles=roleResult.ToList();
+            return View(model);
+        }
     
     }
 }
