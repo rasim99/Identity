@@ -264,3 +264,7 @@ C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net
 C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\MailKit.dll
+C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\MimeKit.dll
+C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\ASUS\Desktop\CODEACADEMY2024\ASP.NETMVC\Identity\Identity\bin\Debug\net8.0\BouncyCastle.Crypto.dll

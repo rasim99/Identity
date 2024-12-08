@@ -47,8 +47,12 @@ namespace Identity
 
                 var addToRoleResult = userManager.AddToRoleAsync(user, role.Name).Result;
                 if (!addToRoleResult.Succeeded) throw new Exception("cannot be added Admin role to user");
+                user.EmailConfirmed =true;
+
+                var updateResult = userManager.UpdateAsync(user).Result;
+                if (!updateResult.Succeeded) throw new Exception("cannot be confirmed");
             }
- 
+
 
         }
     }

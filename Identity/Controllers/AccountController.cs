@@ -1,4 +1,7 @@
 ﻿using Identity.Entities;
+using Identity.Utilities.EmailHandler.Abstract;
+using Identity.Utilities.EmailHandler.Concrete;
+using Identity.Utilities.EmailHandler.Models;
 using Identity.ViewModels.Account;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -11,15 +14,18 @@ namespace Identity.Controllers
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailService _emailService;
 
         public AccountController(UserManager<User> userManager,
             SignInManager<User> signInManager,
-            RoleManager<IdentityRole> roleManager
+            RoleManager<IdentityRole> roleManager,
+            IEmailService emailService
             )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _emailService = emailService;
         }
         [HttpGet]
         public IActionResult Register()
@@ -47,6 +53,19 @@ namespace Identity.Controllers
 
                 return View(model);
             }
+            var token=_userManager.GenerateEmailConfirmationTokenAsync(user).Result;
+            var url = Url.Action(nameof(ConfirmEmail),"Account",new {token,user.Email},Request.Scheme);
+            _emailService.SendMessage(new Message(new List<string> { user.Email},"email confirmation",url));
+            return RedirectToAction(nameof(Login));
+        }
+
+        public IActionResult ConfirmEmail(string email,string token)
+        {
+            var user=_userManager.FindByEmailAsync(email).Result;
+            if (user is null) return NotFound();
+
+            var result =  _userManager.ConfirmEmailAsync(user, token).Result;
+            if(!result.Succeeded) return NotFound();
 
             return RedirectToAction(nameof(Login));
         }

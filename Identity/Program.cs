@@ -1,6 +1,9 @@
 using Identity;
 using Identity.Data;
 using Identity.Entities;
+using Identity.Utilities.EmailHandler.Abstract;
+using Identity.Utilities.EmailHandler.Concrete;
+using Identity.Utilities.EmailHandler.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,11 +20,16 @@ builder.Services.AddIdentity<User, IdentityRole>(option =>
     option.Password.RequireDigit = true;
 
     option.User.RequireUniqueEmail = true;
+    option.SignIn.RequireConfirmedEmail = true;
 
     //option.Lockout.MaxFailedAccessAttempts = 2;
     //option.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
 
-}).AddEntityFrameworkStores<AppDbContext>();
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+var emailConfiguration = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfiguration);
+builder.Services.AddScoped<IEmailService, EmailService>();
 var app = builder.Build();
 app.UseStaticFiles();
 app.UseAuthentication();
