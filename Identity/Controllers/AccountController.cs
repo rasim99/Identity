@@ -27,6 +27,8 @@ namespace Identity.Controllers
             _roleManager = roleManager;
             _emailService = emailService;
         }
+
+        #region Register 
         [HttpGet]
         public IActionResult Register()
         {
@@ -58,7 +60,9 @@ namespace Identity.Controllers
             _emailService.SendMessage(new Message(new List<string> { user.Email},"email confirmation",url));
             return RedirectToAction(nameof(Login));
         }
+        #endregion
 
+        #region ConfirmEmail
         public IActionResult ConfirmEmail(string email,string token)
         {
             var user=_userManager.FindByEmailAsync(email).Result;
@@ -70,6 +74,10 @@ namespace Identity.Controllers
             return RedirectToAction(nameof(Login));
         }
 
+        #endregion
+       
+        
+        #region Login
         [HttpGet]
         public IActionResult Login()
         {
@@ -97,11 +105,64 @@ namespace Identity.Controllers
             return RedirectToAction("index","home");
         }
 
+        #endregion
+
+        [HttpGet]
+        public IActionResult ResetPassword()
+        {
+            return View();
+        } 
+        [HttpPost]
+        public IActionResult ResetPassword(AccountResetPasswordVM model)
+        {
+            if (!ModelState.IsValid) return View(model);
+            var user = _userManager.FindByEmailAsync(model.Email).Result;
+            if (user is null)
+            {
+                ModelState.AddModelError("NewPassword","Cannot reset password");
+                return View(model);
+            }
+           var result= _userManager.ResetPasswordAsync(user,model.Token,model.NewPassword).Result;
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)  ModelState.AddModelError(string.Empty,error.Description);
+                 
+                return View(model);
+            }
+            return RedirectToAction(nameof(Login));
+        }
+
+        [HttpGet]
+        public IActionResult ForgetPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ForgetPassword(AccountForgotPasswordVM model)
+        {
+            if (!ModelState.IsValid) return View(model);
+            var user = _userManager.FindByEmailAsync(model.Email).Result;
+            if (user is null)
+            {
+                ModelState.AddModelError("Email", "user not found");
+                return View(model);
+            }
+            var token = _userManager.GeneratePasswordResetTokenAsync(user).Result;
+            var url = Url.Action(nameof(ResetPassword), "Account", new { token, user.Email }, Request.Scheme);
+            _emailService.SendMessage(new Message(new List<string>{user.Email},"identity forgot password",url));
+            ViewBag.Not = "mail sended for reset password";
+            return View("Notification");
+        }
+
+        #region Logout
         [HttpGet]
         public async Task<IActionResult> Logout()
         {
            await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(Login));
         }
+        #endregion
+
     }
 }
