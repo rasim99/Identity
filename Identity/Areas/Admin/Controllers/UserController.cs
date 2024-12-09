@@ -1,4 +1,5 @@
 ﻿using Identity.Areas.Admin.Models.User;
+using Identity.Constants.Enums;
 using Identity.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -21,6 +22,8 @@ namespace Identity.Areas.Admin.Controllers
             _userManager = userManager;
             _roleManager = roleManager;
         }
+       
+        
         [HttpGet]
         public IActionResult Index()
         {
@@ -49,7 +52,8 @@ namespace Identity.Areas.Admin.Controllers
             };
             return View(model);
         }
-   
+
+        #region Create
         [HttpGet]
         public IActionResult Create()
         {
@@ -101,7 +105,10 @@ namespace Identity.Areas.Admin.Controllers
             }
            return RedirectToAction(nameof(Index));
         }
-
+        #endregion
+       
+       
+        #region Delete
         [HttpPost]
         public IActionResult Delete(string id)
         {
@@ -112,7 +119,125 @@ namespace Identity.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        #endregion
 
+        #region Update
+        [HttpGet]
+        public IActionResult Update(string id) 
+        { 
+            var user=_userManager.FindByIdAsync(id).Result;
+            if (user == null) return NotFound();
+
+            List<string>rolesIds = new List<string>();
+            var userRoles = _userManager.GetRolesAsync(user).Result;
+            foreach (var userRole in userRoles)
+            {
+                var role = _roleManager.FindByNameAsync(userRole).Result;
+                rolesIds.Add(role.Id);
+            }
+            var model = new UserUpdateVM
+            {
+              City=user.City,
+              Country=user.Country,
+               PhoneNumber=user.PhoneNumber,
+                EmailAddress=user.Email,
+                Roles=_roleManager.Roles.Where(x=>x.Name !=UserRoles.Admin.ToString()).Select(x=>new SelectListItem
+                {
+                   Text= x.Name,
+                   Value=x.Id
+                }).ToList(),
+               RolesIds=rolesIds
+            };
+          return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Update(string id,UserUpdateVM model) 
+        {
+            if (!ModelState.IsValid) return View(model);
+            var user = _userManager.FindByIdAsync(id).Result;
+            if (user == null) return NotFound();
+
+            user.City = model.City;
+            user.Country = model.Country;
+            user.PhoneNumber = model.PhoneNumber;
+            if (model.NewPassword is not null)
+            {
+                var passwordValidationResult = _userManager.PasswordValidators
+               .Select(v=>v.ValidateAsync(_userManager,user,model.NewConfirmPassword)).ToList();
+
+                foreach (var validationTask in passwordValidationResult)
+                {
+                    var result = validationTask.Result;
+                    if (!result.Succeeded)
+                    {
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty,error.Description);
+                        }
+                        return View(model);
+                    }
+                }
+                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, model.NewPassword);
+            }
+            if (model.EmailAddress is not null) user.Email = model.EmailAddress;
+
+            List<string> rolesIds = new List<string>();
+            var userRoles=_userManager.GetRolesAsync(user).Result;
+            foreach (var userRole in userRoles)
+            {
+                var role=_roleManager.FindByNameAsync(userRole).Result;
+                rolesIds.Add(role.Id);
+            }
+            var mustBeAddedRoleIds = model.RolesIds.Except(rolesIds).ToList();
+            var mustBeDeletedRoleIds = rolesIds.Except(model.RolesIds).ToList();
+            foreach (var roleId in mustBeAddedRoleIds)
+            {
+                var role = _roleManager.FindByIdAsync(roleId).Result;
+                if (role is null)
+                {
+                    ModelState.AddModelError("RolesIds","have not role");
+                    return View(model);
+                }
+                var result = _userManager.AddToRoleAsync(user,role.Name).Result;
+                if (!result.Succeeded)
+                {
+                    foreach (var error in result.Errors) ModelState.AddModelError(string.Empty,error.Description);
+                    return View(model);
+                }
+            }
+
+            foreach (var roleId in mustBeDeletedRoleIds)
+            {
+                var role = _roleManager.FindByIdAsync(roleId).Result;
+                if (role is null)
+                {
+                    ModelState.AddModelError("RolesIds", "have not role");
+                    return View(model);
+                }
+                var result= _userManager.RemoveFromRoleAsync(user,role.Name).Result;
+                if (!result.Succeeded)
+                {
+                    foreach (var error in result.Errors) ModelState.AddModelError(string.Empty, error.Description);
+
+                    return View(model);
+                }
+            }
+
+            var updateResult=_userManager.UpdateAsync(user).Result;
+            if (!updateResult.Succeeded)
+            {
+                foreach (var error in updateResult.Errors) ModelState.AddModelError(string.Empty, error.Description);
+
+                return View(model);
+            }
+
+ 
+            return RedirectToAction(nameof(Index));
+        }
+
+        #endregion
+        #region Detail
         [HttpGet]
         public IActionResult Detail(string id) 
         {
@@ -130,6 +255,6 @@ namespace Identity.Areas.Admin.Controllers
             model.Roles=roleResult.ToList();
             return View(model);
         }
-    
+        #endregion
     }
 }

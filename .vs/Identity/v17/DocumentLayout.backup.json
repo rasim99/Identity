@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\viewmodels\\account\\accountresetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\viewmodels\\account\\accountresetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\viewmodels\\account\\accountregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\viewmodels\\account\\accountregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\areas\\admin\\models\\user\\userupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\models\\user\\userupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountRegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\ViewModels\\Account\\AccountRegisterVM.cs",
-              "RelativeDocumentMoniker": "Identity\\ViewModels\\Account\\AccountRegisterVM.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\ViewModels\\Account\\AccountRegisterVM.cs",
-              "RelativeToolTip": "Identity\\ViewModels\\Account\\AccountRegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Program.cs",
+              "RelativeDocumentMoniker": "Identity\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Program.cs",
+              "RelativeToolTip": "Identity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:29:05.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "Identity\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "Identity\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T10:25:24.913Z",
+              "WhenOpened": "2024-12-09T17:19:25.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountResetPasswordVM.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\ViewModels\\Account\\AccountResetPasswordVM.cs",
-              "RelativeDocumentMoniker": "Identity\\ViewModels\\Account\\AccountResetPasswordVM.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\ViewModels\\Account\\AccountResetPasswordVM.cs",
-              "RelativeToolTip": "Identity\\ViewModels\\Account\\AccountResetPasswordVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Title": "UserUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
+              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
+              "RelativeToolTip": "Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wCAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T10:18:47.342Z",
+              "WhenOpened": "2024-12-09T17:03:43.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Identity\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Identity\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwG4AAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Identity\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAwLQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T06:57:19.674Z",
+              "WhenOpened": "2024-12-09T17:00:42.19Z",
               "EditorCaption": ""
             }
           ]
