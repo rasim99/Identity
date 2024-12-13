@@ -7329,6 +7329,298 @@
       "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\slick.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\templatemo.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\css\\templatemo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\about-hero.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\about-hero.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\banner_img_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\banner_img_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\banner_img_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\banner_img_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\banner_img_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\banner_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\bde45560-849c-4657-a66f-f8d5edda886b_shop_07.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\bde45560-849c-4657-a66f-f8d5edda886b_shop_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\brand_01.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\brand_01.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\brand_02.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\brand_02.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\brand_03.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\brand_03.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\brand_04.png",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\brand_04.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\category_img_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\category_img_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\category_img_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\category_img_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\category_img_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\f774dd07-8ea6-4e43-adcf-b31d5b56f2e4_shop_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\feature_prod_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\feature_prod_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\feature_prod_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\feature_prod_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\feature_prod_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\feature_prod_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_04.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_05.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_06.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_07.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_08.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_09.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_10.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\Shop.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\Shop.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\templatemo.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\templatemo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\slick.eot",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\slick.svg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\webfonts\\slick.woff",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\webfonts\\slick.woff"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },

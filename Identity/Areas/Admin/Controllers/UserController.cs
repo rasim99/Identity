@@ -1,6 +1,8 @@
 ﻿using Identity.Areas.Admin.Models.User;
 using Identity.Constants.Enums;
 using Identity.Entities;
+using Identity.Utilities.EmailHandler.Abstract;
+using Identity.Utilities.EmailHandler.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,16 +16,55 @@ namespace Identity.Areas.Admin.Controllers
     {
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailService _emailService;
 
         public UserController(UserManager<User> userManager,
-            RoleManager<IdentityRole> roleManager
+            RoleManager<IdentityRole> roleManager,
+            IEmailService emailService
             )
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _emailService = emailService;
         }
-       
-        
+
+        [HttpPost]
+        public IActionResult SendDiscountEmails(string Subject, string Content)
+        {
+            if (string.IsNullOrEmpty(Subject) || string.IsNullOrEmpty(Content))
+            {
+                TempData["Error"] = "Subject and Body cannot be empty.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            var subscribedUsers = _userManager.Users
+                .Where(x => x.IsSubscribe)
+                .ToList();
+
+            if (!subscribedUsers.Any())
+            {
+                TempData["Error"] = "No subscribed users found.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            foreach (var user in subscribedUsers)
+            {
+                try
+                {
+                    _emailService.SendMessage(new Message( new  List<string>{user.Email},Subject,Content));
+                }
+                catch (Exception e)
+                {
+                    TempData["Error"] = $"Failed to send email to {user.Email}: {e.Message}";
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+
+            TempData["Success"] = "Emails sent successfully to subscribed users.";
+            return RedirectToAction(nameof(Index));
+        }
+
+
         [HttpGet]
         public IActionResult Index()
         {

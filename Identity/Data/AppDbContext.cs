@@ -10,5 +10,6 @@ namespace Identity.Data
         {
             
         }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }

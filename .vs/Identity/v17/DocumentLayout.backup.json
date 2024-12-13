@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\utilities\\emailhandler\\concrete\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\utilities\\emailhandler\\concrete\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\areas\\admin\\models\\user\\userupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\models\\user\\userupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\utilities\\emailhandler\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\utilities\\emailhandler\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|c:\\users\\asus\\desktop\\codeacademy2024\\asp.netmvc\\identity\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AE36C51-65E7-4052-B55D-101E2DBCEFB8}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Program.cs",
-              "RelativeDocumentMoniker": "Identity\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Program.cs",
-              "RelativeToolTip": "Identity\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Identity\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "RelativeToolTip": "Identity\\Utilities\\EmailHandler\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:19:25.379Z",
+              "WhenOpened": "2024-12-13T11:37:02.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserUpdateVM.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
-              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Models\\User\\UserUpdateVM.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wCAAAAAWAAAAAAAAAA==",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "RelativeDocumentMoniker": "Identity\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "RelativeToolTip": "Identity\\Utilities\\EmailHandler\\Concrete\\EmailService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvzkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:03:43.446Z",
+              "WhenOpened": "2024-12-13T11:38:33.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T11:23:09.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T11:09:47.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAwLQAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Identity\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T17:00:42.19Z",
+              "WhenOpened": "2024-12-13T11:03:50.962Z",
               "EditorCaption": ""
             }
           ]
