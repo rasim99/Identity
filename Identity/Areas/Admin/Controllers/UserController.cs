@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using NuGet.Common;
 
 namespace Identity.Areas.Admin.Controllers
 {
@@ -51,7 +53,9 @@ namespace Identity.Areas.Admin.Controllers
             {
                 try
                 {
-                    _emailService.SendMessage(new Message( new  List<string>{user.Email},Subject,Content));
+                    var url = Url.Action(nameof(Index), "Home", new {Area="",user.Email, Content} ,Request.Scheme);
+
+                    _emailService.SendMessage(new Message( new  List<string>{user.Email},Subject,url));
                 }
                 catch (Exception e)
                 {
