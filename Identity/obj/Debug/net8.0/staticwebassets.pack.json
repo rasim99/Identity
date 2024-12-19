@@ -7377,6 +7377,10 @@
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\32131cdb-0435-411e-bced-f90ebd59ffb8_shop_07.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\32131cdb-0435-411e-bced-f90ebd59ffb8_shop_07.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg"
     },
@@ -7393,6 +7397,14 @@
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\9545f84b-b01b-4d9f-be89-5f88447fd17e_shop_03.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\9545f84b-b01b-4d9f-be89-5f88447fd17e_shop_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\abd4ac46-7c13-403d-a57d-be2e35955099_shop_02.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\abd4ac46-7c13-403d-a57d-be2e35955099_shop_02.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\about-hero.svg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\about-hero.svg"
     },
@@ -7403,6 +7415,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\b07e5e53-5bc1-4df7-a259-2b4b03cca824_shop_01.jpg",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\b07e5e53-5bc1-4df7-a259-2b4b03cca824_shop_01.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg",
@@ -7511,6 +7527,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\img\\product_single_10.jpg",
       "PackagePath": "staticwebassets\\StaticFiles\\assets\\img\\product_single_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\Basket.js",
+      "PackagePath": "staticwebassets\\StaticFiles\\assets\\js\\Basket.js"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\CODEACADEMY2024\\ASP.NETMVC\\Identity\\Identity\\wwwroot\\StaticFiles\\assets\\js\\Shop.js",

@@ -1,0 +1,45 @@
+﻿@using Identity.Areas.Admin.Models.Product
+@model ProductUpdateVM
+<form enctype="multipart/form-data" class="w-75 ml-4" asp-controller="Product" asp-action="Update" method="post">
+
+	<div class="form-group">
+		<label asp-for="Title"></label>
+		<input asp-for="Title" class="form-control" placeholder="Enter Title" />
+		<span class="text-danger" asp-validation-for="Title"></span>
+	</div>
+
+	<div class="form-group">
+		<img src="~/StaticFiles/assets/img/@Model.PhotoName" />
+	</div>
+	<div class="form-group">
+		<label asp-for="Photo"></label>
+		<input asp-for="Photo" class="form-control" placeholder="Enter Path" />
+		<span class="text-danger" asp-validation-for="Photo"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Size"></label>
+		<input asp-for="Size" class="form-control" placeholder="Enter Sizes" />
+		<span class="text-danger" asp-validation-for="Size"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Price"></label>
+		<input asp-for="Price" class="form-control" placeholder="Enter Price" />
+		<span class="text-danger" asp-validation-for="Price"></span>
+	</div>	
+	
+	<div class="form-group">
+		<label asp-for="StockQuantity"></label>
+		<input  asp-for="StockQuantity" class="form-control" placeholder="Enter StockQuantity" />
+		<span class="text-danger" asp-validation-for="StockQuantity"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="CategoryId"></label>
+		<select asp-for="CategoryId" asp-items="Model.Categories"></select>
+		<span class="text-danger" asp-validation-for="CategoryId"></span>
+	</div>
+	<button type="submit" class="btn btn-primary">Update</button>
+	<a class="btn btn-outline-info" asp-controller="Product" asp-action="Index">Cancel</a>
+</form>

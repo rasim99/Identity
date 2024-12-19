@@ -7,5 +7,6 @@ namespace Identity.Entities
         public string Country { get; set; }
         public string City { get; set; }
         public bool IsSubscribe { get; set; }
+        public Basket Basket { get; set; }
     }
 }

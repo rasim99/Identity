@@ -62,7 +62,10 @@
 				<div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
 					<div class="bg-white py-2 collapse-inner rounded">
 						<a class="collapse-item" asp-action="Index" asp-controller="User">Users</a>
+						<a class="collapse-item" asp-action="Index" asp-controller="Category">Categories</a>
+						<a class="collapse-item" asp-action="Index" asp-controller="Product">Products</a>
 					</div>
+
 				</div>
 			</li>
 
@@ -103,8 +106,16 @@
 					@if (ViewBag.isUserController==true && ViewBag.isIndexAction==true)
 					{
 						<a class="nav-link" asp-controller="User" asp-action="Create"> ➕ </a>
+					}	
+					else if (ViewBag.isCategoryController==true && ViewBag.isIndexAction==true)
+					{
+						<a class="nav-link" asp-controller="Category" asp-action="Create"> ➕ </a>
 					}
-
+					else if (ViewBag.isProductController==true && ViewBag.isIndexAction==true)
+					{
+						<a class="nav-link" asp-controller="Product" asp-action="Create"> ➕ </a>
+					}	
+					
 					else
 					{
 						<div>😍</div>

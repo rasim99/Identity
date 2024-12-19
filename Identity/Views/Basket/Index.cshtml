@@ -1,0 +1,65 @@
+﻿@using Identity.ViewModels.Basket
+@{
+	Layout = "_SubLayout";
+}
+
+@model BasketIndexVM
+@if (Model.BasketProducts.Count > 0)
+{
+	<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+		<thead>
+			<tr>
+				<th class="text-success">Photo</th>
+				<th class="text-info">Product Name</th>
+				<th class="text-dark">Sizes</th>
+				<th class="text-danger">Price</th>
+				<th class="text-danger"> Quantity</th>
+				<th class="text-danger"> TotalPrice</th>
+				<th class="text-danger">Category</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+
+		<tbody>
+
+			@foreach (var basketProduct in Model.BasketProducts)
+			{
+				<tr>
+					<td class="text-gray-500 w-25"><img style="width:50%; transform:translateX(80px); height:100px; border-radius:5px; object-fit:cover"
+						src="/StaticFiles/assets/img/@basketProduct.Product.PhotoName" title="Photo" /></td>
+
+					<td class="text-gray-500">@basketProduct.Product.Title</td>
+					<td class="text-gray-500">@basketProduct.Product.Size</td>
+					<td class="text-gray-500">@basketProduct.Product.Price  AZN</td>
+					<td class="text-gray-500 quantity">@basketProduct.Quantity</td>
+					<td class="text-gray-500 productTotalPrice"> @(@basketProduct.Quantity * @basketProduct.Product.Price) AZN</td>
+					<td class="text-gray-500">@basketProduct.Product.Category.Name</td>
+					<td class="text-gray-500 text-center " style="transform:translateY(20px);">
+						<a data-id="@basketProduct.Id" style="cursor:pointer" class="btn btn-outline-warning decreaseBtn" >-</a>
+						<a data-id="@basketProduct.Id" style="cursor:pointer" class="btn btn-outline-danger increaseBtn">+</a>
+						<a data-id="@basketProduct.Id"  style="cursor:pointer" class="btn btn-outline-danger deleteBtn">Delete</a>
+						
+
+					</td>
+				</tr>
+			}
+
+		</tbody>
+	</table>
+
+	<div class="container d-flex  justify-content-end">
+
+		<p class="text-danger">
+			<strong class="text-info">Total Price</strong> : <span id="totalPrice">@Model.BasketProducts.Sum(b => b.Quantity * b.Product.Price)</span>
+		</p>
+	</div>
+}
+else
+{
+	<h1 class="text-center text-danger"> NOT FOUND ANY PRODUCT</h1>
+}
+
+
+@section Scripts {
+	<script src="~/StaticFiles/assets/js/Basket.js"></script>
+}

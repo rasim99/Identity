@@ -1855,13 +1855,17 @@ wwwroot\StaticFiles\assets\css\templatemo.min.css
 wwwroot\StaticFiles\assets\img\10a95236-275a-478e-a031-25b00693d1fb_shop_09.jpg
 wwwroot\StaticFiles\assets\img\176eb9e0-5dae-46ce-91b5-dc558c4219b3_shop_05.jpg
 wwwroot\StaticFiles\assets\img\1fea2ecf-bd57-4014-a37d-7c920e1f547a_shop_03.jpg
+wwwroot\StaticFiles\assets\img\32131cdb-0435-411e-bced-f90ebd59ffb8_shop_07.jpg
 wwwroot\StaticFiles\assets\img\35291195-6924-4e9a-980c-85f236ec3205_shop_08.jpg
 wwwroot\StaticFiles\assets\img\671e284b-fb55-4a65-8f7e-15353fe8b704_shop_02.jpg
 wwwroot\StaticFiles\assets\img\725a0b0a-2750-4466-b1a8-6cdda27cc749_shop_06.jpg
 wwwroot\StaticFiles\assets\img\728cad7e-6b38-436f-b4b1-6e22345d3558_shop_04.jpg
+wwwroot\StaticFiles\assets\img\9545f84b-b01b-4d9f-be89-5f88447fd17e_shop_03.jpg
+wwwroot\StaticFiles\assets\img\abd4ac46-7c13-403d-a57d-be2e35955099_shop_02.jpg
 wwwroot\StaticFiles\assets\img\about-hero.svg
 wwwroot\StaticFiles\assets\img\ajax-loader.gif
 wwwroot\StaticFiles\assets\img\apple-icon.png
+wwwroot\StaticFiles\assets\img\b07e5e53-5bc1-4df7-a259-2b4b03cca824_shop_01.jpg
 wwwroot\StaticFiles\assets\img\b12e8f87-5d66-49ef-8bfe-8adb545bb665_shop_01.jpg
 wwwroot\StaticFiles\assets\img\banner_img_01.jpg
 wwwroot\StaticFiles\assets\img\banner_img_02.jpg
@@ -1889,6 +1893,7 @@ wwwroot\StaticFiles\assets\img\product_single_07.jpg
 wwwroot\StaticFiles\assets\img\product_single_08.jpg
 wwwroot\StaticFiles\assets\img\product_single_09.jpg
 wwwroot\StaticFiles\assets\img\product_single_10.jpg
+wwwroot\StaticFiles\assets\js\Basket.js
 wwwroot\StaticFiles\assets\js\bootstrap.bundle.min.js
 wwwroot\StaticFiles\assets\js\custom.js
 wwwroot\StaticFiles\assets\js\jquery-1.11.0.min.js

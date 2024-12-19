@@ -4,6 +4,7 @@ using Identity.Entities;
 using Identity.Utilities.EmailHandler.Abstract;
 using Identity.Utilities.EmailHandler.Concrete;
 using Identity.Utilities.EmailHandler.Models;
+using Identity.Utilities.File;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,6 +12,7 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddSingleton<IFileService, FileService>();
 
 builder.Services.AddIdentity<User, IdentityRole>(option =>
 {
